@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+.flag {
+    background-color: #ce1126;
+    height: 400px;
+    width: 600px;
+    border: solid white;
+}
+
+body > div > div {
+    background-color: #002868;
+    width: 600px;
+    height: 200px;
+    position: relative;
+    margin-top: 50px;
+}
+
+body > div > div > div{
+    background-color: antiquewhite;
+    width: 160px;
+    height:140px;
+    position: absolute;
+    border-radius: 80%;
+    margin-left: 210px;
+    margin-top: 40px;
+}
+
+
+p {
+    font-size: 3.5rem;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .flag>div div p {
+    color: black;
+  }
+
+
